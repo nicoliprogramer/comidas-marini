@@ -96,6 +96,14 @@ main {
 .div-resaltador {
     background-color: #009ce4;
     text-align: center;
+
+    transition-property: all;
+    -o-transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.div-resaltador:hover {
+    background-color: green;
 }
 
 .footer-distributed {
